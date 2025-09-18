@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import FeaturesSection from "./components/FeaturesSection";
 import MarqueSection from "./components/MarqueSection";
+import ProductSection from "./components/ProductSection";
+import TestimonialsSection from "./components/TestimonialSection";
 
 const LandingPage: React.FC = () => {
   return (
@@ -12,8 +14,8 @@ const LandingPage: React.FC = () => {
         <HeroSection />
         <MarqueSection />
         <FeaturesSection />
-        {/* <ProductSection /> */}
-        {/* <Testimonials /> */}
+        <ProductSection />
+        <TestimonialsSection />
         {/* <BlogSection /> */}
         {/* <CTA /> */}
       </main>
