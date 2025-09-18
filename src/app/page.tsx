@@ -5,6 +5,7 @@ import FeaturesSection from "./components/FeaturesSection";
 import MarqueSection from "./components/MarqueSection";
 import ProductSection from "./components/ProductSection";
 import TestimonialsSection from "./components/TestimonialSection";
+import BlogSection from "./components/BlogSection";
 
 const LandingPage: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const LandingPage: React.FC = () => {
         <FeaturesSection />
         <ProductSection />
         <TestimonialsSection />
-        {/* <BlogSection /> */}
+        <BlogSection />
         {/* <CTA /> */}
       </main>
       {/* <Footer /> */}
